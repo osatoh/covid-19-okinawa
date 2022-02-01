@@ -4,6 +4,5 @@ services:
     build: .
     tty: true
     stdin_open: true
-    command: go run main.go
     volumes:
       - .:/app
